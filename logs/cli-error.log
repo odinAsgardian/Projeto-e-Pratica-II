@@ -1,0 +1,272 @@
+2017-03-02 19:27:52 Error: [RuntimeException] Cannot update a table that doesn't exist!
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Table.php(81): Phinx\Db\Table->update()
+#1 /home/alunoifpe/pepii/config/Migrations/20170302192732_AddUserIdToArticles.php(21): Migrations\Table->update()
+#2 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(120): AddUserIdToArticles->change()
+#3 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(AddUserIdToArticles), 'up')
+#4 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(AddUserIdToArticles), 'up')
+#5 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170302192732)
+#6 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-02 19:43:20 Error: [RuntimeException] Cannot update a table that doesn't exist!
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Table.php(81): Phinx\Db\Table->update()
+#1 /home/alunoifpe/pepii/config/Migrations/20170302192732_AddUserIdToArticles.php(21): Migrations\Table->update()
+#2 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(120): AddUserIdToArticles->change()
+#3 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(AddUserIdToArticles), 'up')
+#4 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(AddUserIdToArticles), 'up')
+#5 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170302192732)
+#6 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-02 19:53:29 Error: [RuntimeException] Cannot update a table that doesn't exist!
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Table.php(81): Phinx\Db\Table->update()
+#1 /home/alunoifpe/pepii/config/Migrations/20170302192732_AddUserIdToArticles.php(21): Migrations\Table->update()
+#2 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(120): AddUserIdToArticles->change()
+#3 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(AddUserIdToArticles), 'up')
+#4 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(AddUserIdToArticles), 'up')
+#5 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170302192732)
+#6 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-03 17:24:02 Error: [RuntimeException] Cannot update a table that doesn't exist!
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Table.php(81): Phinx\Db\Table->update()
+#1 /home/alunoifpe/pepii/config/Migrations/20170302192732_AddUserIdToArticles.php(21): Migrations\Table->update()
+#2 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(120): AddUserIdToArticles->change()
+#3 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(AddUserIdToArticles), 'up')
+#4 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(AddUserIdToArticles), 'up')
+#5 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170302192732)
+#6 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-03 17:24:09 Error: [RuntimeException] Cannot update a table that doesn't exist!
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Table.php(81): Phinx\Db\Table->update()
+#1 /home/alunoifpe/pepii/config/Migrations/20170302192732_AddUserIdToArticles.php(21): Migrations\Table->update()
+#2 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(120): AddUserIdToArticles->change()
+#3 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(AddUserIdToArticles), 'up')
+#4 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(AddUserIdToArticles), 'up')
+#5 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170302192732)
+#6 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-03 17:49:26 Error: [RuntimeException] Cannot update a table that doesn't exist!
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Table.php(81): Phinx\Db\Table->update()
+#1 /home/alunoifpe/pepii/config/Migrations/20170302192732_AddUserIdToArticles.php(21): Migrations\Table->update()
+#2 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(120): AddUserIdToArticles->change()
+#3 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(AddUserIdToArticles), 'up')
+#4 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(AddUserIdToArticles), 'up')
+#5 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170302192732)
+#6 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-03 18:02:16 Error: [RuntimeException] Cannot update a table that doesn't exist!
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Table.php(81): Phinx\Db\Table->update()
+#1 /home/alunoifpe/pepii/config/Migrations/20170302192732_AddUserIdToArticles.php(21): Migrations\Table->update()
+#2 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(120): AddUserIdToArticles->change()
+#3 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(AddUserIdToArticles), 'up')
+#4 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(AddUserIdToArticles), 'up')
+#5 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170303180212)
+#6 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-07 11:35:15 Error: [InvalidArgumentException] Migration "20170307113149_CreateCategories.php" has the same name as "20170303183607_CreateCategories.php"
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(258): Phinx\Migration\Manager->getMigrations()
+#1 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#12 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2017-03-07 11:36:15 Error: [InvalidArgumentException] Migration "20170307113149_CreateCategories.php" has the same name as "20170303183607_CreateCategories.php"
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(258): Phinx\Migration\Manager->getMigrations()
+#1 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#12 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2017-03-07 11:37:42 Error: [InvalidArgumentException] Migration "20170307113149_CreateCategories.php" has the same name as "20170303183607_CreateCategories.php"
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(258): Phinx\Migration\Manager->getMigrations()
+#1 /home/alunoifpe/pepii/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Command/Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/alunoifpe/pepii/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/alunoifpe/pepii/vendor/symfony/console/Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /home/alunoifpe/pepii/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#12 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2017-03-07 11:47:38 Error: [ParseError] syntax error, unexpected '}'
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Ar...', 'App')
+#5 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(238): Cake\Core\App::className('Articles', 'Model/Table', 'Table')
+#6 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(193): Cake\ORM\Locator\TableLocator->_getClassName('Articles', Array)
+#7 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/ORM/Association.php(411): Cake\ORM\Locator\TableLocator->get('Articles', Array)
+#8 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/ORM/Association.php(444): Cake\ORM\Association->getTarget()
+#9 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(500): Cake\ORM\Association->target()
+#10 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(132): Bake\Shell\Task\ModelTask->getEntityPropertySchema(Object(App\Model\Table\CategoriesTable))
+#11 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\CategoriesTable), 'categories', 'Categories')
+#12 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Categories')
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Bake\Shell\Task\ModelTask->main('Categories')
+#14 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#15 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-09 18:59:12 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pepii_db.comprovantes' doesn't exist
+Stack Trace:
+#0 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'comprovantes', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('comprovantes', Array)
+#2 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('comprovantes')
+#3 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/ORM/Table.php(676): Cake\ORM\Table->getPrimaryKey()
+#5 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(215): Cake\ORM\Table->primaryKey()
+#6 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(127): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#7 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'comprovantes', 'Comprovantes')
+#8 /home/alunoifpe/pepii/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Comprovantes')
+#9 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(472): Bake\Shell\Task\ModelTask->main('Comprovantes')
+#10 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#11 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/alunoifpe/pepii/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/alunoifpe/pepii/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
