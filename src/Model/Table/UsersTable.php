@@ -9,6 +9,8 @@ use Cake\Validation\Validator;
 /**
  * Users Model
  *
+ * @property \Cake\ORM\Association\HasMany $Comprovantes
+ *
  * @method \App\Model\Entity\User get($primaryKey, $options = [])
  * @method \App\Model\Entity\User newEntity($data = null, array $options = [])
  * @method \App\Model\Entity\User[] newEntities(array $data, array $options = [])
@@ -16,8 +18,6 @@ use Cake\Validation\Validator;
  * @method \App\Model\Entity\User patchEntity(\Cake\Datasource\EntityInterface $entity, array $data, array $options = [])
  * @method \App\Model\Entity\User[] patchEntities($entities, array $data, array $options = [])
  * @method \App\Model\Entity\User findOrCreate($search, callable $callback = null, $options = [])
- *
- * @mixin \Cake\ORM\Behavior\TimestampBehavior
  */
 class UsersTable extends Table
 {
@@ -36,7 +36,9 @@ class UsersTable extends Table
         $this->displayField('id');
         $this->primaryKey('id');
 
-        $this->addBehavior('Timestamp');
+        $this->hasMany('Comprovantes', [
+            'foreignKey' => 'user_id'
+        ]);
     }
 
     /**
@@ -45,17 +47,21 @@ class UsersTable extends Table
      * @param \Cake\Validation\Validator $validator Validator instance.
      * @return \Cake\Validation\Validator
      */
-    public function validationDefault(Validator $validator)
-    {
+    public function validationDefault(Validator $validator){
         return $validator
-			->notEmpty('username', 'A username is required')
-			->notEmpty('password', 'A password is required')
-			->notEmpty('role', 'A role is required')
-			->add('role','inList', [
-				'rule' =>['inList', ['admin', 'author']],
-				'message'=> 'Please enter a valid role']);
-        
-    }
+        ->notEmpty('username', 'A username is required')
+        ->notEmpty('password', 'A password is required')
+        ->notEmpty('role', 'A role is required')
+        ->add('role', 'inList', [
+                'rule' => ['inList', ['admin',
+                                'gestor_transportes', 
+                                'gestor_impressao', 
+                                'gestor_pessoas', 
+                                'servidor']
+                                ],
+                                
+            'message' => 'Please enter a valid role']);
+}
 
     /**
      * Returns a rules checker object that will be used for validating
@@ -66,7 +72,9 @@ class UsersTable extends Table
      */
     public function buildRules(RulesChecker $rules)
     {
+        $rules->add($rules->isUnique(['email']));
         $rules->add($rules->isUnique(['username']));
+        $rules->add($rules->isUnique(['siape']));
 
         return $rules;
     }

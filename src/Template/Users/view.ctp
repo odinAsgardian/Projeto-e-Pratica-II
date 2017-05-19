@@ -16,6 +16,14 @@
     <h3><?= h($user->id) ?></h3>
     <table class="vertical-table">
         <tr>
+            <th scope="row"><?= __('Nome') ?></th>
+            <td><?= h($user->nome) ?></td>
+        </tr>
+        <tr>
+            <th scope="row"><?= __('Email') ?></th>
+            <td><?= h($user->email) ?></td>
+        </tr>
+        <tr>
             <th scope="row"><?= __('Username') ?></th>
             <td><?= h($user->username) ?></td>
         </tr>
@@ -32,12 +40,8 @@
             <td><?= $this->Number->format($user->id) ?></td>
         </tr>
         <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($user->created) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($user->modified) ?></td>
+            <th scope="row"><?= __('Siape') ?></th>
+            <td><?= $this->Number->format($user->siape) ?></td>
         </tr>
     </table>
 </div>

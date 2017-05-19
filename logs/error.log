@@ -4698,3 +4698,728 @@ Stack Trace:
 2017-05-18 18:12:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2017-05-18 18:12:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2017-05-18 18:12:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:34:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:34:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:34:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:34:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:34:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:48:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:49:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:49:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:49:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:50:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:50:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:50:35 Warning: Warning (512): Unable to emit headers. Headers sent in file=/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php line=822 in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 18:50:35 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 18:50:35 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 178]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 178
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 18:51:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:51:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:51:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:51:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:52:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:52:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:53:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:54:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:54:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:56:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:56:40 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /comprovante/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Com...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(68): Cake\Core\App::className('Comprovante', 'Controller', 'Controller')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-18 18:56:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:56:43 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /comprovante/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Com...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(68): Cake\Core\App::className('Comprovante', 'Controller', 'Controller')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-18 18:56:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:56:44 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /comprovante/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Com...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(68): Cake\Core\App::className('Comprovante', 'Controller', 'Controller')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-18 18:57:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:57:34 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /comprovante/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Com...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(68): Cake\Core\App::className('Comprovante', 'Controller', 'Controller')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-18 18:59:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 18:59:21 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /comprovante/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Com...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(68): Cake\Core\App::className('Comprovante', 'Controller', 'Controller')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-18 18:59:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:00:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:00:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:00:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:02:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:02:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:02:53 Warning: Warning (2): move_uploaded_file(uploads/files/galaxy wallpapers 20.jpg): failed to open stream: No such file or directory in [/home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php, line 65]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+move_uploaded_file - [internal], line ??
+App\Controller\ComprovanteController::add() - APP/Controller/ComprovanteController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 440
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 82
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:02:53 Warning: Warning (2): move_uploaded_file() [<a href='http://php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpkBOYmV' to 'uploads/files/galaxy wallpapers 20.jpg' in [/home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php, line 65]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+move_uploaded_file - [internal], line ??
+App\Controller\ComprovanteController::add() - APP/Controller/ComprovanteController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 440
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 82
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:02:53 Warning: Warning (512): Unable to emit headers. Headers sent in file=/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php line=822 in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:02:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:02:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 178]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 178
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:04:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:04:17 Warning: Warning (2): move_uploaded_file(uploads/files/WEB II - Aula_05 - Primeira Aplicação - Tutorial Blog.pdf): failed to open stream: No such file or directory in [/home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php, line 65]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+move_uploaded_file - [internal], line ??
+App\Controller\ComprovanteController::add() - APP/Controller/ComprovanteController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 440
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 82
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:04:17 Warning: Warning (2): move_uploaded_file() [<a href='http://php.net/function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpQdbb1O' to 'uploads/files/WEB II - Aula_05 - Primeira Aplicação - Tutorial Blog.pdf' in [/home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php, line 65]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+move_uploaded_file - [internal], line ??
+App\Controller\ComprovanteController::add() - APP/Controller/ComprovanteController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 440
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 119
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 93
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 82
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:04:17 Warning: Warning (512): Unable to emit headers. Headers sent in file=/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php line=822 in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 48]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:04:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 148]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:04:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Debugger.php:822) in [/home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 178]
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 178
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 108
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-05-18 19:12:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:12:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:12:35 Error: [InvalidArgumentException] Unknown type ""
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1934): Cake\Database\Type::build(NULL)
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1866): Cake\ORM\Table->_newId(Array)
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1791): Cake\ORM\Table->_insert(Object(App\Model\Entity\Comprovante), Array)
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Comprovante), Object(ArrayObject))
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\ORM\Table->Cake\ORM\{closure}()
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Connection.php(654): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1448): Cake\Database\Connection->transactional(Object(Closure))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1725): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#8 /home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php(99): Cake\ORM\Table->save(Object(App\Model\Entity\Comprovante))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\ComprovanteController->add()
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ComprovanteController))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-05-18 19:12:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:13:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:14:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:14:09 Error: [InvalidArgumentException] Unknown type ""
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1934): Cake\Database\Type::build(NULL)
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1866): Cake\ORM\Table->_newId(Array)
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1791): Cake\ORM\Table->_insert(Object(App\Model\Entity\Comprovante), Array)
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Comprovante), Object(ArrayObject))
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\ORM\Table->Cake\ORM\{closure}()
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Connection.php(654): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1448): Cake\Database\Connection->transactional(Object(Closure))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1725): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#8 /home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php(99): Cake\ORM\Table->save(Object(App\Model\Entity\Comprovante))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\ComprovanteController->add()
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ComprovanteController))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-05-18 19:14:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:14:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:14:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:14:36 Error: [InvalidArgumentException] Unknown type ""
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1934): Cake\Database\Type::build(NULL)
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1866): Cake\ORM\Table->_newId(Array)
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1791): Cake\ORM\Table->_insert(Object(App\Model\Entity\Comprovante), Array)
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Comprovante), Object(ArrayObject))
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\ORM\Table->Cake\ORM\{closure}()
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Connection.php(654): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1448): Cake\Database\Connection->transactional(Object(Closure))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1725): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#8 /home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php(99): Cake\ORM\Table->save(Object(App\Model\Entity\Comprovante))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\ComprovanteController->add()
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ComprovanteController))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-05-18 19:17:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:18:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-18 19:18:01 Error: [InvalidArgumentException] Unknown type ""
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1934): Cake\Database\Type::build(NULL)
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1866): Cake\ORM\Table->_newId(Array)
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1791): Cake\ORM\Table->_insert(Object(App\Model\Entity\Comprovante), Array)
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Comprovante), Object(ArrayObject))
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\ORM\Table->Cake\ORM\{closure}()
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Connection.php(654): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1448): Cake\Database\Connection->transactional(Object(Closure))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1725): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#8 /home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php(99): Cake\ORM\Table->save(Object(App\Model\Entity\Comprovante))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\ComprovanteController->add()
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ComprovanteController))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-05-19 16:48:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:48:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:48:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:48:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:48:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:48:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:48:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:48:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:49:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:49:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:49:06 Error: [InvalidArgumentException] Articles is not associated with Users
+Request URL: /articles
+Referer URL: http://localhost:8765/users/login
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/EagerLoader.php(320): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\ArticlesTable), 'Users', Array, Array)
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/EagerLoader.php(450): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\ArticlesTable))
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/EagerLoader.php(421): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\ArticlesTable))
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Query.php(1038): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\ArticlesTable), true)
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Query.php(989): Cake\ORM\Query->_transformQuery()
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(136): Cake\ORM\Query->sql()
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Connection.php(249): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Connection.php(302): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Query.php(213): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Query.php(1011): Cake\Database\Query->execute()
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(276): Cake\ORM\Query->_execute()
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Query.php(959): Cake\ORM\Query->_all()
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(189): Cake\ORM\Query->all()
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(717): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\ArticlesTable), Array)
+#14 /home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ArticlesController.php(21): Cake\Controller\Controller->paginate(Object(Cake\ORM\Query))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\ArticlesController->index()
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#17 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ArticlesController))
+#18 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#22 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#23 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#24 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#25 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#26 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#28 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#29 {main}
+
+
+2017-05-19 16:50:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:50:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:51:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:51:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:51:36 Error: [InvalidArgumentException] Unknown type ""
+Request URL: /comprovante/add
+Referer URL: http://localhost:8765/comprovante/add
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1934): Cake\Database\Type::build(NULL)
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1866): Cake\ORM\Table->_newId(Array)
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1791): Cake\ORM\Table->_insert(Object(App\Model\Entity\Comprovante), Array)
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1724): Cake\ORM\Table->_processSave(Object(App\Model\Entity\Comprovante), Object(ArrayObject))
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1447): Cake\ORM\Table->Cake\ORM\{closure}()
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Database/Connection.php(654): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1448): Cake\Database\Connection->transactional(Object(Closure))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Table.php(1725): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#8 /home/alunoifpe/Projeto-e-Pratica-II/src/Controller/ComprovanteController.php(99): Cake\ORM\Table->save(Object(App\Model\Entity\Comprovante))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(440): App\Controller\ComprovanteController->add()
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ComprovanteController))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#23 {main}
+
+
+2017-05-19 16:52:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:54:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 16:54:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:51:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:52:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:52:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:52:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:53:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:53:02 Error: [ParseError] syntax error, unexpected ''gestor_impressao'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+Request URL: /users/add
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/View/View.php(971): Cake\View\View->_evaluate('/home/alunoifpe...', Array)
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/View/View.php(595): Cake\View\View->_render('/home/alunoifpe...')
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Controller/Controller.php(623): Cake\View\View->render(NULL, NULL)
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-05-19 17:53:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:53:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:53:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:53:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:53:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:54:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:55:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:57:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:57:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:57:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:58:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:58:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:58:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:58:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:58:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:58:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:58:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:59:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 17:59:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:03:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:03:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:03:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:03:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:03:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:04:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:04:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:04:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:04:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:08:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:08:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:08:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:08:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:08:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:08:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:08:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:09:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:10:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:11:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:11:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:11:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:11:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:11:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:11:29 Error: [ParseError] syntax error, unexpected 'owner' (T_STRING)
+Request URL: /comprovantes
+Referer URL: http://localhost:8765/users/login
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Controller\\...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Com...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ControllerFactory.php(68): Cake\Core\App::className('Comprovantes', 'Controller', 'Controller')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Http/Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 /home/alunoifpe/Projeto-e-Pratica-II/webroot/index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2017-05-19 18:14:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-05-19 18:14:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.

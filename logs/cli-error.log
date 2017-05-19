@@ -270,3 +270,60 @@ Stack Trace:
 #15 {main}
 
 
+2017-05-19 17:20:54 Error: [ParseError] syntax error, unexpected '$primaryKey' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Co...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(238): Cake\Core\App::className('Comprovantes', 'Model/Table', 'Table')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(193): Cake\ORM\Locator\TableLocator->_getClassName('Comprovantes', Array)
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(110): Cake\ORM\Locator\TableLocator->get('Comprovantes', Array)
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(287): Cake\ORM\TableRegistry::get('Comprovantes', Array)
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(148): Bake\Shell\Task\TemplateTask->_loadController()
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/Shell.php(472): Bake\Shell\Task\TemplateTask->main('comprovantes')
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 /home/alunoifpe/Projeto-e-Pratica-II/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2017-05-19 17:20:58 Error: [ParseError] syntax error, unexpected '$primaryKey' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/alunoifpe...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(152): class_exists('App\\Model\\Table...')
+#4 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Co...', 'App')
+#5 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(238): Cake\Core\App::className('Comprovantes', 'Model/Table', 'Table')
+#6 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(193): Cake\ORM\Locator\TableLocator->_getClassName('Comprovantes', Array)
+#7 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(110): Cake\ORM\Locator\TableLocator->get('Comprovantes', Array)
+#8 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(190): Cake\ORM\TableRegistry::get('Comprovantes', Array)
+#9 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableObject('Comprovantes', 'comprovantes')
+#10 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(97): Bake\Shell\Task\ModelTask->bake('Comprovantes')
+#11 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/bake/src/Shell/BakeShell.php(257): Bake\Shell\Task\ModelTask->main('Comprovantes')
+#12 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Comprovantes', 0)
+#13 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/bake/src/Shell/BakeShell.php(260): Cake\Collection\Collection->each(Object(Closure))
+#14 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/Shell.php(458): Bake\Shell\BakeShell->all('comprovantes')
+#15 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /home/alunoifpe/Projeto-e-Pratica-II/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-19 17:50:40 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Model" could not be found.
+Exception Attributes: array (
+  'class' => 'Model',
+)
+Stack Trace:
+#0 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(223): Cake\Console\ShellDispatcher->findShell('Model')
+#1 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 /home/alunoifpe/Projeto-e-Pratica-II/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 /home/alunoifpe/Projeto-e-Pratica-II/bin/cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+

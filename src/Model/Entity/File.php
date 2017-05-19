@@ -2,20 +2,18 @@
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
-use Cake\Event\Event;
-use Cake\Auth\DefaultPasswordHasher;
+
 /**
- * User Entity
+ * File Entity
  *
  * @property int $id
- * @property int $siape
- * @property string $nome
- * @property string $email
- * @property string $username
- * @property string $password
- * @property string $role
+ * @property string $name
+ * @property string $path
+ * @property \Cake\I18n\Time $created
+ * @property \Cake\I18n\Time $modified
+ * @property bool $status
  */
-class User extends Entity
+class File extends Entity
 {
 
     /**
@@ -31,16 +29,4 @@ class User extends Entity
         '*' => true,
         'id' => false
     ];
-
-    /**
-     * Fields that are excluded from JSON versions of the entity.
-     *
-     * @var array
-     */
-    protected $_hidden = [
-        'password'
-    ];
-    protected function _setPassword($password){
-        return (new DefaultPasswordHasher)->hash($password);
-    }
 }

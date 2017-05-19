@@ -7,10 +7,15 @@ use Cake\ORM\Entity;
  * Comprovante Entity
  *
  * @property int $id
- * @property string $siape
- * @property string $nome
- * @property string|resource $arquivo
- * @property string|resource $boleto
+ * @property \Cake\I18n\Time $data
+ * @property int $user_id
+ * @property \Cake\I18n\Time $created
+ * @property \Cake\I18n\Time $modified
+ * @property bool $aproved
+ * @property int $comprovante_id
+ *
+ * @property \App\Model\Entity\User $user
+ * @property \App\Model\Entity\Comprovante[] $comprovantes
  */
 class Comprovante extends Entity
 {
