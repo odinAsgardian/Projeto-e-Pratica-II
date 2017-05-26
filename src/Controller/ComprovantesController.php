@@ -16,6 +16,12 @@ class ComprovantesController extends AppController
      *
      * @return \Cake\Network\Response|null
      */
+    public function initialize(){
+        parent::initialize();
+        // Load Files model
+        $this->loadModel('Files');
+    
+    }
     public function index()
     {
         $this->paginate = [
@@ -44,50 +50,7 @@ class ComprovantesController extends AppController
         $this->set('_serialize', ['comprovante']);
     }
 
-        public function uploadFiles($request, $comprovante){
-            $checkSave = false;
-            $data = '';
-            foreach ($request['arquivo'] as $datas) {
-                $data .= '-' . $datas;
-            }
-
-            $uploadPath = 'uploads/files';
-
-            $username = $this->Auth->user('name');
-            $username = str_replace("", "", $username);
-
-            if(strcmp($request['plType'], '1') == 0){
-                if (!empty($request['fileOne']['name'] && !empty($request['fileTwo']['name']))) {
-
-                    $fileNameOne = $username . $data . '-1.pdf';
-                    $uploadFileOne = $uploadPath.$fileNameOne;
-
-                    $fileNameTwo = $username . $data . '-2.pdf';
-                    $uploadFileTwo = $uploadPath.$fileNameTwo;
-
-                    if (move_uploaded_file($request['fileOne']['tmp_name'], WWW_ROOT . $uploadFileOne) && move_uploaded_file($request['fileTwo']['tmp_name'], WWW_ROOT . $uploadFileTwo)) {
-                        
-                        $fileOne = $this->files->newEntity();
-                        $fileOne->comprovante_id = $comprovante['id'];
-                        $fileOne->name = $fileNameOne;
-                        $fileOne->path = $uploadPath;
-
-                        $fileTwo = $this->files->newEntity();
-                        $fileTwo->comprovante_id = $comprovante['id'];
-                        $fileTwo->name = $fileNameTwo;
-                        $fileTwo->path = $uploadPath;
-
-                        if ($this->Files->save($fileOne) && $this->Files->save($fileTwo)) {
-                            $checkSave = true;
-                        }
-                    }
-                }
-            }
-
-            return $checkSave;
-        }
-
-    /**
+            /**
      * Add method
      *
      * @return \Cake\Network\Response|null Redirects on successful add, renders view otherwise.
@@ -95,8 +58,18 @@ class ComprovantesController extends AppController
     public function add()
     {
         $comprovante = $this->Comprovantes->newEntity();
+        $this->user_id = $this->Auth->user('id');
+        
+
         if ($this->request->is('post')) {
+            $uploadPath = 'uploads/files/';
+            $fileName = $this->request->data['arquivo']['name'];
+            //$fileRequest = $this->request->data['arquivo']['tmp_name'];
+            $extension = pathinfo($this->request->data['arquivo']['name'], PATHINFO_EXTENSION);
+
             $comprovante = $this->Comprovantes->patchEntity($comprovante, $this->request->data);
+
+            $sendFile = $this->Files->uploadAndSaveFile('envio', $uploadPath, $fileName.'.'.$extension);
             if ($this->Comprovantes->save($comprovante)) {
                 $this->Flash->success(__('The comprovante has been saved.'));
 

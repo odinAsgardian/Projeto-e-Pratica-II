@@ -18,12 +18,13 @@
     <fieldset>
         <legend><?= __('Add Comprovante') ?></legend>
         <?php
-            echo $this->Form->input('data');
-            echo $this->Form->input('user_id', ['options' => $users]);
+            echo $this->Form->input('data', ['type' => 'date']);
+            echo $this->Form->input('arquivo', ['type' => 'file']);
+            //echo $this->Form->input('user_id', ['options' => $users]);
             echo $this->Form->input('aproved');
-            echo $this->Form->input('comprovante_id');
+            //echo $this->Form->input('comprovante_id');
         ?>
     </fieldset>
-    <?= $this->Form->button(__('Submit')) ?>
+    <?= $this->Form->button(__('Enviar')) ?>
     <?= $this->Form->end() ?>
 </div>

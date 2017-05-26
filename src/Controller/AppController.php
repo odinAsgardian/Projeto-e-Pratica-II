@@ -82,10 +82,10 @@ class AppController extends Controller
         $this->Auth->allow(['index', 'view', 'display']);
     }
 
-    public function isAuthorized($user){
+    /*public function isAuthorized($user){
         if (isset($user['role']) && $user['role'] === 'admin') {
             return true;
         }
         return false;
-    }
+    }*/
 }
